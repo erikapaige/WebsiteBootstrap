@@ -1,4 +1,5 @@
 /*-- Body Reset --*/
+
 body {
   overflow-x: hidden;
   font-family: 'Montserrat', sans-serif;
@@ -6,60 +7,69 @@ body {
 }
 
 /*============= TOP BAR HEADER =============*/
-.top-bar{
+
+.top-bar {
   background: #7aaec4;
   height: 2.8rem;
   padding: .5rem 0;
 }
-.top-bar a{
+
+.top-bar a {
   color: white;
   text-decoration: none;
   font-size: 1.1rem;
 }
 
-
 /*============= NAVIGATION =============*/
 
+.navbar-brand img {
+  height: 3rem;
+}
 
+.navbar {
+  font-size: 1.15rem;
+  font-weight: 600;
+  letter-spacing: .1rem;
+  box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .1);
+  z-index: 1;
+}
+
+.nav-item {
+  padding: .5rem;
+}
+
+.nav-link {
+  color: #5b5555!important;
+}
+
+.nav-link.active,
+.nav-link:hover {
+  color: #4981b3!important;
+}
 
 /*============= CAROUSEL =============*/
 
-
-
 /*---Change Carousel Transition Speed --*/
-
 
 /*-- Carousel Content --*/
 
-
-
 /*===== FIXED BACKGROUND IMG =====*/
-
-
 
 /*-- Emoji Navbar --*/
 
-
-
 /*============= FOOTER =============*/
 
-
-
 /*============= SOCKET =============*/
-
-
 
 /*============= MEDIA QUERIES =============*/
 
 /* Devices under 1199px (xl) */
-@media (max-width: 1199.98px) {
 
-}
+@media (max-width: 1199.98px) {}
+
 /* Devices under 768px (md) */
-@media (max-width: 767.98px) {
 
-}
-
+@media (max-width: 767.98px) {}
 
 /*============ BOOTSTRAP BREAK POINTS:
 
@@ -81,17 +91,20 @@ Extra (xl) large devices (large desktops, 1200px and up)
 =============*/
 
 /*-- Bootstrap Mobile Gutter Fix --*/
+
 .row, .container-fluid {
   margin-left: 0px !important;
   margin-right: 0px !important;
 }
 
 /*-- Fixed Background Image --*/
+
 .fixed-background {
   position: relative;
   width: 100%;
   z-index: 1000!important;
 }
+
 .fixed-wrap {
   clip: rect(0, auto, auto, 0);
   position: absolute;
@@ -101,6 +114,7 @@ Extra (xl) large devices (large desktops, 1200px and up)
   height: 100%;
   z-index: -999 !important;
 }
+
 .fixed {
   z-index: -999!important;
   display: block;
