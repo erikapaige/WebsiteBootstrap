@@ -61,6 +61,7 @@ body {
 .carousel-item.active {
   transition: transform 1.2s ease;
 }
+
 /*---Change Carousel Transition Speed --*/
 
 /*-- Carousel Content --*/
