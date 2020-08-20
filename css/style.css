@@ -150,9 +150,7 @@ footer img {
   margin: 1.5rem auto;
 }
 
-.socket a,
-footer p, 
-footer a {
+.socket a, footer p, footer a {
   color: white;
   text-decoration: none;
 }
@@ -163,18 +161,22 @@ ul.social {
   max-width: 16rem;
   margin: 0 auto;
 }
+
 ul.social li {
   margin: 0 auto;
   padding: 0;
 }
-footer .svg-inline--fa{
+
+footer .svg-inline--fa {
   font-size: 2.3rem;
 }
-footer.sv-inline--fa:hover{
+
+footer.sv-inline--fa:hover {
   color: #68a0d2;
 }
 
 /*============= SOCKET =============*/
+
 .socket {
   background-color: #222222;
   border-top: .1rem solid #4981b3;
@@ -184,11 +186,27 @@ footer.sv-inline--fa:hover{
 
 /* Devices under 1199px (xl) */
 
-@media (max-width: 1199.98px) {}
+@media (max-width: 1199.98px) {
+  .carousel-caption h1 {
+    font-size: 2.8rem;
+  }
+  .carousel-caption h3 {
+    font-size: 1.8rem;
+  }
+}
 
-/* Devices under 768px (md) */
+/* Devices under 992px (lg) */
 
-@media (max-width: 767.98px) {}
+@media (max-width: 991.98px) {
+  .carousel-caption h1 {
+    font-size: 2.5rem;
+  }
+  .carousel-caption h3 {
+    font-size: 1.5rem;
+  }
+  .btn-lg{
+    font-size: .95rem;
+  }
 
 /*============ BOOTSTRAP BREAK POINTS:
 
