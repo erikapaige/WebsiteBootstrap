@@ -150,8 +150,10 @@ footer img {
   margin: 1.5rem auto;
 }
 
-footer p, footer a, .socket a, {
-  color: white!important;
+.socket a,
+footer p, 
+footer a {
+  color: white;
   text-decoration: none;
 }
 
